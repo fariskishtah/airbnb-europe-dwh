@@ -95,11 +95,11 @@ story += [sec("Executive Summary"),
  P("data/silver/airbnb_europe_master.parquet and .csv, table silver.airbnb_europe_master. Reconciliation: Bronze 51,707 = Silver 51,707 = Gold 51,707; every Silver row traces to a Bronze row (source_file + source_row_index); real_sum equals Bronze realSum with no drift."),
  PageBreak(), sec("Gold Layer"),
  P("PostgreSQL 16.2. The gold schema is rebuilt from Silver by SQL scripts (3_gold_layer/ddl, transformations) with deterministic surrogate keys, 6 primary keys, 7 foreign keys, a unique grain constraint, CHECK constraints, indexes and analytical views."),
- sec("Star Schema"), img(ROOT / "artifacts/figures/star_schema.png", 14 * cm),
+ sec("Star Schema"), img(ROOT / "artifacts/figures/star_schema.png", 16 * cm),
  P("Grain: one offer observation = one row of one source CSV. <b>Not built:</b> Date (no date in source), Host (no host id; only portfolio flags in dim_host_status), Property Type (not in source).", SMALL),
  PageBreak(), sec("SQL Implementation"),
  P("Analytical SQL lives in 3_gold_layer/analytics_queries (12 queries) over views vw_offers_enriched, vw_city_kpis, vw_weekend_premium, vw_room_type_stats, vw_superhost_stats, vw_capacity_stats, vw_layer_reconciliation. Medians use percentile_cont because prices are skewed."),
- img(ROOT / "artifacts/figures/architecture.png", 8 * cm),
+ img(ROOT / "artifacts/figures/architecture.png", 11 * cm),
  PageBreak(), sec("Data Quality")]
 dq = pd.DataFrame(dqr["checks"])[["layer", "name", "expected", "actual", "status"]]
 dq["name"] = dq["name"].str.slice(0, 58)
