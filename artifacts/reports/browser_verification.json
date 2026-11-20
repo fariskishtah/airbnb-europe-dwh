@@ -1,0 +1,96 @@
+{
+  "url": "http://localhost:8599",
+  "pages": [
+    {
+      "viewport": "desktop",
+      "page": "Executive Overview",
+      "heading": "Airbnb Europe Analytics",
+      "exceptions": 0,
+      "plotly_charts": 5,
+      "dataframes": 0,
+      "screenshot": "01_executive_overview.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "City Intelligence",
+      "heading": "City Intelligence",
+      "exceptions": 0,
+      "plotly_charts": 5,
+      "dataframes": 1,
+      "screenshot": "02_city_intelligence.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "Pricing Analytics",
+      "heading": "Pricing Analytics",
+      "exceptions": 0,
+      "plotly_charts": 7,
+      "dataframes": 1,
+      "screenshot": "03_pricing_analytics.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "Property & Room Insights",
+      "heading": "Property & Room Insights",
+      "exceptions": 0,
+      "plotly_charts": 6,
+      "dataframes": 1,
+      "screenshot": "04_property_room.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "Ratings & Location",
+      "heading": "Ratings & Location",
+      "exceptions": 0,
+      "plotly_charts": 7,
+      "dataframes": 1,
+      "screenshot": "05_ratings_location.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "Geospatial View",
+      "heading": "Geospatial View",
+      "exceptions": 0,
+      "plotly_charts": 1,
+      "dataframes": 1,
+      "screenshot": "06_geospatial.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "Data Quality & Pipeline",
+      "heading": "Data Quality & Pipeline",
+      "exceptions": 0,
+      "plotly_charts": 1,
+      "dataframes": 4,
+      "screenshot": "07_data_quality_pipeline.png"
+    },
+    {
+      "viewport": "desktop",
+      "page": "SQL Analytics Explorer",
+      "heading": "SQL Analytics Explorer",
+      "exceptions": 0,
+      "plotly_charts": 1,
+      "dataframes": 2,
+      "screenshot": "08_sql_explorer.png"
+    },
+    {
+      "viewport": "mobile",
+      "page": "Executive Overview",
+      "heading": "Airbnb Europe Analytics",
+      "exceptions": 0,
+      "plotly_charts": 5,
+      "dataframes": 0,
+      "screenshot": "mobile_01_executive_overview.png"
+    },
+    {
+      "viewport": "mobile",
+      "page": "Data Quality & Pipeline",
+      "heading": "Data Quality & Pipeline",
+      "exceptions": 0,
+      "plotly_charts": 1,
+      "dataframes": 4,
+      "screenshot": "mobile_07_data_quality_pipeline.png"
+    }
+  ],
+  "console_errors": []
+}

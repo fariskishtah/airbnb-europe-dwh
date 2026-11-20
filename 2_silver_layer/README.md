@@ -1,0 +1,3 @@
+# Silver layer
+`transformation/run_silver.py` → `airbnb_dwh/silver.py`. Strict typing (booleans must be `True`/`False`), 12 validation rules (non-null, price > 0, room-type domain, flag consistency, ratings ranges, capacity, distances, indices, binary flags, coordinates near the city), failing rows go to `data/silver/quarantine_rejected_rows.csv` (currently 0 rows – the source is clean; no imputation, no fabricated cleaning). Derived: `offer_id`, `two_night_total_eur`, `nightly_equivalent_eur`, `is_studio`, `price_outlier_iqr`.
+Outputs: `data/silver/airbnb_europe_master.{parquet,csv}`, `silver_report.json`, table `silver.airbnb_europe_master`. No enrichment code exists by design (no `enrichment/` folder): see `docs/ENRICHMENT_DECISION.md`.

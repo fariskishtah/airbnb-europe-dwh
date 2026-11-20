@@ -1,0 +1,240 @@
+{
+  "run_id": "20261120T215647Z-6627ae",
+  "generated_utc": "2026-11-20T21:56:48+00:00",
+  "passed": 29,
+  "failed": 0,
+  "checks": [
+    {
+      "layer": "bronze",
+      "name": "20 raw CSV files present on disk",
+      "expected": "20",
+      "actual": "20",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "bronze",
+      "name": "20 files registered in ingestion_log",
+      "expected": "20",
+      "actual": "20",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "bronze",
+      "name": "File MD5 matches Zenodo record",
+      "expected": "20",
+      "actual": "20",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "bronze",
+      "name": "No duplicate file ingestion (SHA-256)",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "bronze",
+      "name": "Bronze rows per file equal source row count",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "bronze",
+      "name": "No null/blank key fields in raw rows",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "silver",
+      "name": "Bronze -> Silver row reconciliation",
+      "expected": "51707",
+      "actual": "51707",
+      "status": "PASS",
+      "detail": "no row loss and no expansion"
+    },
+    {
+      "layer": "silver",
+      "name": "Unique offer_id (source-row lineage)",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "silver",
+      "name": "Every Silver row traces back to a Bronze row",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "silver",
+      "name": "Silver real_sum equals Bronze realSum (no value drift)",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "silver",
+      "name": "Prices strictly positive",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Satisfaction within 0-100",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Cleanliness within 0-10",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Capacity >= 1 and bedrooms >= 0",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Distances non-negative",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Valid room types",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Nightly equivalent = two-night total / 2",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "violating rows"
+    },
+    {
+      "layer": "silver",
+      "name": "Coordinates within reference city bounding box",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "gold",
+      "name": "Silver -> Gold fact row reconciliation",
+      "expected": "51707",
+      "actual": "51707",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "gold",
+      "name": "Silver -> Gold price sum reconciliation",
+      "expected": "14471734.016687",
+      "actual": "14471734.016687",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "gold",
+      "name": "Fact -> dim_city referential integrity",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "orphan fact rows"
+    },
+    {
+      "layer": "gold",
+      "name": "Fact -> dim_day_type referential integrity",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "orphan fact rows"
+    },
+    {
+      "layer": "gold",
+      "name": "Fact -> dim_room_type referential integrity",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "orphan fact rows"
+    },
+    {
+      "layer": "gold",
+      "name": "Fact -> dim_host_status referential integrity",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "orphan fact rows"
+    },
+    {
+      "layer": "gold",
+      "name": "Fact -> dim_source_file referential integrity",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": "orphan fact rows"
+    },
+    {
+      "layer": "gold",
+      "name": "Fact grain unique (source file, source row)",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "gold",
+      "name": "Foreign keys declared in database",
+      "expected": "7",
+      "actual": "7",
+      "status": "PASS",
+      "detail": "5 on fact_offer_observation + 2 on dim_source_file"
+    },
+    {
+      "layer": "gold",
+      "name": "Primary keys declared (6 tables)",
+      "expected": "6",
+      "actual": "6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "layer": "gold",
+      "name": "Fact rows per source file equal source row count",
+      "expected": "0",
+      "actual": "0",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

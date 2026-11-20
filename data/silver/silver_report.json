@@ -1,0 +1,25 @@
+{
+  "rows_in": 51707,
+  "null_or_blank_cells": 0,
+  "rule_failures": {
+    "numeric_not_null": 0,
+    "price_positive": 0,
+    "room_type_valid": 0,
+    "room_flags_consistent": 0,
+    "satisfaction_0_100": 0,
+    "cleanliness_0_10": 0,
+    "capacity_ge_1": 0,
+    "bedrooms_ge_0": 0,
+    "distances_ge_0": 0,
+    "indices_positive": 0,
+    "flags_binary": 0,
+    "coords_valid": 0
+  },
+  "rows_out": 51707,
+  "rows_quarantined": 0,
+  "duplicate_offer_ids": 0,
+  "exact_duplicate_content_rows": 0,
+  "price_outliers_flagged": 2737,
+  "studios": 4485,
+  "imputed_values": 0
+}

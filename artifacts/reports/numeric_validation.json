@@ -1,0 +1,314 @@
+{
+  "tolerance_rel": 1e-09,
+  "comparisons": 42,
+  "mismatches": 0,
+  "city_ranking_identical": true,
+  "city_ranking_by_avg_price": [
+    "Amsterdam",
+    "Paris",
+    "London",
+    "Barcelona",
+    "Berlin",
+    "Vienna",
+    "Lisbon",
+    "Rome",
+    "Budapest",
+    "Athens"
+  ],
+  "rows": [
+    {
+      "kpi": "total observations",
+      "silver_pandas": 51707.0,
+      "gold_sql": 51707.0,
+      "dashboard_query": 51707.0,
+      "match": true
+    },
+    {
+      "kpi": "avg two-night total",
+      "silver_pandas": 279.8795910937968,
+      "gold_sql": 279.8795910937969,
+      "dashboard_query": 279.8795910937969,
+      "match": true
+    },
+    {
+      "kpi": "median two-night total",
+      "silver_pandas": 211.3430888246808,
+      "gold_sql": 211.3430888246808,
+      "dashboard_query": 211.3430888246808,
+      "match": true
+    },
+    {
+      "kpi": "avg satisfaction",
+      "silver_pandas": 92.62823215425378,
+      "gold_sql": 92.62823215425378,
+      "dashboard_query": 92.62823215425378,
+      "match": true
+    },
+    {
+      "kpi": "avg cleanliness",
+      "silver_pandas": 9.39062409344963,
+      "gold_sql": 9.39062409344963,
+      "dashboard_query": 9.39062409344963,
+      "match": true
+    },
+    {
+      "kpi": "avg nightly equivalent",
+      "silver_pandas": 139.9397955468984,
+      "gold_sql": 139.93979554689844,
+      "dashboard_query": 139.93979554689844,
+      "match": true
+    },
+    {
+      "kpi": "Amsterdam avg two-night total",
+      "silver_pandas": 573.1127951560076,
+      "gold_sql": 573.1127951560076,
+      "dashboard_query": 573.1127951560076,
+      "match": true
+    },
+    {
+      "kpi": "Amsterdam median two-night total",
+      "silver_pandas": 460.2441825041596,
+      "gold_sql": 460.2441825041596,
+      "dashboard_query": 460.2441825041596,
+      "match": true
+    },
+    {
+      "kpi": "Athens avg two-night total",
+      "silver_pandas": 151.74412143367925,
+      "gold_sql": 151.74412143367988,
+      "dashboard_query": 151.74412143367988,
+      "match": true
+    },
+    {
+      "kpi": "Athens median two-night total",
+      "silver_pandas": 127.71541724275303,
+      "gold_sql": 127.71541724275303,
+      "dashboard_query": 127.71541724275303,
+      "match": true
+    },
+    {
+      "kpi": "Barcelona avg two-night total",
+      "silver_pandas": 293.7537062382921,
+      "gold_sql": 293.7537062382918,
+      "dashboard_query": 293.7537062382918,
+      "match": true
+    },
+    {
+      "kpi": "Barcelona median two-night total",
+      "silver_pandas": 208.29939255707868,
+      "gold_sql": 208.29939255707868,
+      "dashboard_query": 208.29939255707868,
+      "match": true
+    },
+    {
+      "kpi": "Berlin avg two-night total",
+      "silver_pandas": 244.58375239374382,
+      "gold_sql": 244.58375239374377,
+      "dashboard_query": 244.58375239374377,
+      "match": true
+    },
+    {
+      "kpi": "Berlin median two-night total",
+      "silver_pandas": 191.17509582125828,
+      "gold_sql": 191.17509582125828,
+      "dashboard_query": 191.17509582125828,
+      "match": true
+    },
+    {
+      "kpi": "Budapest avg two-night total",
+      "silver_pandas": 176.5135482813693,
+      "gold_sql": 176.513548281369,
+      "dashboard_query": 176.513548281369,
+      "match": true
+    },
+    {
+      "kpi": "Budapest median two-night total",
+      "silver_pandas": 152.98209334022656,
+      "gold_sql": 152.98209334022656,
+      "dashboard_query": 152.98209334022656,
+      "match": true
+    },
+    {
+      "kpi": "Lisbon avg two-night total",
+      "silver_pandas": 238.21047869910882,
+      "gold_sql": 238.21047869911052,
+      "dashboard_query": 238.21047869911052,
+      "match": true
+    },
+    {
+      "kpi": "Lisbon median two-night total",
+      "silver_pandas": 225.37523452157598,
+      "gold_sql": 225.37523452157598,
+      "dashboard_query": 225.37523452157598,
+      "match": true
+    },
+    {
+      "kpi": "London avg two-night total",
+      "silver_pandas": 362.46925565504455,
+      "gold_sql": 362.46925565504284,
+      "dashboard_query": 362.46925565504284,
+      "match": true
+    },
+    {
+      "kpi": "London median two-night total",
+      "silver_pandas": 261.2949504927209,
+      "gold_sql": 261.2949504927209,
+      "dashboard_query": 261.2949504927209,
+      "match": true
+    },
+    {
+      "kpi": "Paris avg two-night total",
+      "silver_pandas": 392.53140300558204,
+      "gold_sql": 392.5314030055827,
+      "dashboard_query": 392.5314030055827,
+      "match": true
+    },
+    {
+      "kpi": "Paris median two-night total",
+      "silver_pandas": 317.5971665579271,
+      "gold_sql": 317.5971665579271,
+      "dashboard_query": 317.5971665579271,
+      "match": true
+    },
+    {
+      "kpi": "Rome avg two-night total",
+      "silver_pandas": 205.3919497336563,
+      "gold_sql": 205.39194973365494,
+      "dashboard_query": 205.39194973365494,
+      "match": true
+    },
+    {
+      "kpi": "Rome median two-night total",
+      "silver_pandas": 182.59182194374955,
+      "gold_sql": 182.59182194374955,
+      "dashboard_query": 182.59182194374955,
+      "match": true
+    },
+    {
+      "kpi": "Vienna avg two-night total",
+      "silver_pandas": 241.58248392280137,
+      "gold_sql": 241.58248392280098,
+      "dashboard_query": 241.58248392280098,
+      "match": true
+    },
+    {
+      "kpi": "Vienna median two-night total",
+      "silver_pandas": 208.49402800177643,
+      "gold_sql": 208.49402800177643,
+      "dashboard_query": 208.49402800177643,
+      "match": true
+    },
+    {
+      "kpi": "Amsterdam weekend-vs-weekday avg diff %",
+      "silver_pandas": 10.973438306885953,
+      "gold_sql": 10.973438306885953,
+      "dashboard_query": 10.973438306885953,
+      "match": true
+    },
+    {
+      "kpi": "Athens weekend-vs-weekday avg diff %",
+      "silver_pandas": -5.316408821840701,
+      "gold_sql": -5.316408821840623,
+      "dashboard_query": -5.316408821840623,
+      "match": true
+    },
+    {
+      "kpi": "Barcelona weekend-vs-weekday avg diff %",
+      "silver_pandas": 4.121572992542499,
+      "gold_sql": 4.121572992542566,
+      "dashboard_query": 4.121572992542566,
+      "match": true
+    },
+    {
+      "kpi": "Berlin weekend-vs-weekday avg diff %",
+      "silver_pandas": 3.759919561498015,
+      "gold_sql": 3.759919561498215,
+      "dashboard_query": 3.759919561498215,
+      "match": true
+    },
+    {
+      "kpi": "Budapest weekend-vs-weekday avg diff %",
+      "silver_pandas": 9.909946765228582,
+      "gold_sql": 9.909946765228494,
+      "dashboard_query": 9.909946765228494,
+      "match": true
+    },
+    {
+      "kpi": "Lisbon weekend-vs-weekday avg diff %",
+      "silver_pandas": 1.5649089641494252,
+      "gold_sql": 1.564908964149092,
+      "dashboard_query": 1.564908964149092,
+      "match": true
+    },
+    {
+      "kpi": "London weekend-vs-weekday avg diff %",
+      "silver_pandas": 1.1546497643132758,
+      "gold_sql": 1.154649764313831,
+      "dashboard_query": 1.154649764313831,
+      "match": true
+    },
+    {
+      "kpi": "Paris weekend-vs-weekday avg diff %",
+      "silver_pandas": -2.94846574522023,
+      "gold_sql": -2.9484657452200302,
+      "dashboard_query": -2.9484657452200302,
+      "match": true
+    },
+    {
+      "kpi": "Rome weekend-vs-weekday avg diff %",
+      "silver_pandas": 3.7258615406635442,
+      "gold_sql": 3.7258615406630113,
+      "dashboard_query": 3.7258615406630113,
+      "match": true
+    },
+    {
+      "kpi": "Vienna weekend-vs-weekday avg diff %",
+      "silver_pandas": 0.9795503185112686,
+      "gold_sql": 0.9795503185113574,
+      "dashboard_query": 0.9795503185113574,
+      "match": true
+    },
+    {
+      "kpi": "Entire home/apt avg",
+      "silver_pandas": 324.315150348911,
+      "gold_sql": 324.31515034891004,
+      "dashboard_query": 324.3151503489146,
+      "match": true
+    },
+    {
+      "kpi": "Entire home/apt median",
+      "silver_pandas": 248.4567357240677,
+      "gold_sql": 248.4567357240677,
+      "dashboard_query": 248.4567357240677,
+      "match": true
+    },
+    {
+      "kpi": "Private room avg",
+      "silver_pandas": 204.94023282645625,
+      "gold_sql": 204.94023282645742,
+      "dashboard_query": 204.94023282645742,
+      "match": true
+    },
+    {
+      "kpi": "Private room median",
+      "silver_pandas": 166.37151645074098,
+      "gold_sql": 166.37151645074098,
+      "dashboard_query": 166.37151645074098,
+      "match": true
+    },
+    {
+      "kpi": "Shared room avg",
+      "silver_pandas": 143.56616358130483,
+      "gold_sql": 143.5661635813048,
+      "dashboard_query": 143.56616358130472,
+      "match": true
+    },
+    {
+      "kpi": "Shared room median",
+      "silver_pandas": 124.47928297295978,
+      "gold_sql": 124.47928297295978,
+      "dashboard_query": 124.47928297295978,
+      "match": true
+    }
+  ]
+}

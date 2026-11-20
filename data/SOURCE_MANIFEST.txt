@@ -1,0 +1,60 @@
+Airbnb Prices in European Cities - Source Manifest
+
+Original source: Zenodo, "Determinants of Airbnb prices in European cities: A spatial econometrics approach (Supplementary Material)"
+Record: https://zenodo.org/records/4446043
+DOI: https://doi.org/10.5281/zenodo.4446043
+Version: v2
+Published: 2021-01-13
+Creators: Kristof Gyodi and Lukasz Nawaro, University of Warsaw
+License: CC BY 4.0
+Downloaded: 2026-10-21 (Africa/Cairo)
+Download method: Directly from the Zenodo record API file endpoints; no Kaggle repack used.
+
+Verification summary
+- Expected CSV files: 20
+- Downloaded CSV files: 20
+- Readable and non-empty: 20/20
+- Exact common CSV schema: 20/20
+- Original columns per file: 20 including the unnamed exported row-index column; 19 analytical columns
+- Missing values in all analytical data: 0
+- Total data rows: 51,707
+- Integrity: all file sizes and MD5 checksums match the Zenodo record
+- Raw files were not cleaned, transformed, renamed, or otherwise modified.
+
+File inventory (filename | bytes | data rows | CSV columns | Zenodo MD5 | status)
+amsterdam_weekdays.csv | 226649 | 1103 | 20 | cb68a0bdadee34bceb1627a5068ba250 | PASS
+amsterdam_weekends.csv | 200999 | 977 | 20 | 5cb4fd0cf341fb21c26f99dd5e4036ab | PASS
+athens_weekdays.csv | 554593 | 2653 | 20 | 4227285e45447ddf3dd7f61afe436523 | PASS
+athens_weekends.csv | 549401 | 2627 | 20 | d32c00089226c541d2a30baacb2187f9 | PASS
+barcelona_weekdays.csv | 319677 | 1555 | 20 | 6381278ed69b4b152bd5ecd78c03d15c | PASS
+barcelona_weekends.csv | 262270 | 1278 | 20 | 484376affa23ada08228cd2be9c45b45 | PASS
+berlin_weekdays.csv | 269841 | 1284 | 20 | 888c6bd1ddf0eeda98bcf3675ed04a75 | PASS
+berlin_weekends.csv | 249378 | 1200 | 20 | bcff08ffdffb3014d9dfadf57f268b90 | PASS
+budapest_weekdays.csv | 434179 | 2074 | 20 | fcf988d89733ab1d9a256ce7093d4416 | PASS
+budapest_weekends.csv | 407256 | 1948 | 20 | 77796b7d12e921d43bf47b782bac4f64 | PASS
+lisbon_weekdays.csv | 593095 | 2857 | 20 | 2d55fcb32020bc0e4f9182f01571a09f | PASS
+lisbon_weekends.csv | 603366 | 2906 | 20 | 1d75c75774ad4b02e184f07c432a5b29 | PASS
+london_weekdays.csv | 960351 | 4614 | 20 | 124d4e30f2919e92d6ae4c7387610b72 | PASS
+london_weekends.csv | 1120236 | 5379 | 20 | 351e3d840439426d8a2f8b8629c88f16 | PASS
+paris_weekdays.csv | 650063 | 3130 | 20 | b648076fdcccdfb8db1da13a4f89ebc8 | PASS
+paris_weekends.csv | 740574 | 3558 | 20 | 4c9c9288335d75da202d118ef2713264 | PASS
+rome_weekdays.csv | 933273 | 4492 | 20 | f0ef06e05182dc796a5cf8ab796fd5d5 | PASS
+rome_weekends.csv | 942795 | 4535 | 20 | 7c5f58a5351bc7adcbd09919f5604518 | PASS
+vienna_weekdays.csv | 362207 | 1738 | 20 | 4de6afb541e329e680632991e805c7f6 | PASS
+vienna_weekends.csv | 374875 | 1799 | 20 | a69334b1536e9866de745a0b98d6b6ce | PASS
+
+Common header (verbatim)
+unnamed exported row index, realSum, room_type, room_shared, room_private, person_capacity, host_is_superhost, multi, biz, cleanliness_rating, guest_satisfaction_overall, bedrooms, dist, metro_dist, attr_index, attr_index_norm, rest_index, rest_index_norm, lng, lat
+
+Important interpretation notes
+- realSum is the full accommodation price for two people and two nights in EUR, including reservation and cleaning fees according to the associated paper. It is not a nightly price.
+- Each city has separate weekday and weekend offer samples. The source files have no observation date column and no reliable Airbnb listing identifier.
+- The unnamed first column is a zero-based row index exported with each CSV. It restarts in every file and must not be treated as an Airbnb listing ID.
+- Filename city and weekday/weekend labels are source metadata and should later be engineered into explicit lineage columns without changing the raw files.
+
+Kaggle comparison
+- The Kaggle dataset identifier supplied for the project is thedevastator/airbnb-prices-in-european-cities.
+- Kaggle version 3 contains the same 20 filenames and total size (10,755,078 bytes).
+- On 2026-10-21, every Kaggle CSV was compared byte-for-byte by MD5 with the downloaded Zenodo original; all 20 were identical.
+- Kaggle metadata labels the repack CC0, while the academic Zenodo record states CC BY 4.0. Use the original Zenodo license and attribution to avoid relying on the repack's conflicting license label.
+- Kaggle is therefore an equivalent repack for these CSVs, but Zenodo remains the citable academic source and publishes authoritative file-level checksums. The raw folder uses the Zenodo originals.

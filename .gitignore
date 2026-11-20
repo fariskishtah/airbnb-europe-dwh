@@ -1,0 +1,10 @@
+.venv/
+.pgdata/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+*.log
+artifacts/streamlit.log
+nohup.out

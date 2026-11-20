@@ -1,0 +1,305 @@
+{
+  "summary": {
+    "rows": 51707,
+    "files": 20,
+    "cities": 10,
+    "blank_cells": 0,
+    "exact_duplicate_rows_excluding_index": 0,
+    "source_row_index_restarts_per_file": true,
+    "multi_and_biz_both_1": 0,
+    "price_outliers_gt_5000": 26,
+    "price_p99": 1160.8363319927585,
+    "price_max": 18545.450284723363,
+    "has_calendar_date_column": false,
+    "has_listing_id_column": false,
+    "has_host_id_column": false,
+    "has_property_type_column": false
+  },
+  "numeric_describe": [
+    {
+      "column": "realSum",
+      "count": 51707.0,
+      "mean": 279.88,
+      "std": 327.948,
+      "min": 34.779,
+      "1%": 71.54,
+      "25%": 148.752,
+      "50%": 211.343,
+      "75%": 319.694,
+      "99%": 1160.836,
+      "max": 18545.45
+    },
+    {
+      "column": "person_capacity",
+      "count": 51707.0,
+      "mean": 3.162,
+      "std": 1.299,
+      "min": 2.0,
+      "1%": 2.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "99%": 6.0,
+      "max": 6.0
+    },
+    {
+      "column": "cleanliness_rating",
+      "count": 51707.0,
+      "mean": 9.391,
+      "std": 0.955,
+      "min": 2.0,
+      "1%": 6.0,
+      "25%": 9.0,
+      "50%": 10.0,
+      "75%": 10.0,
+      "99%": 10.0,
+      "max": 10.0
+    },
+    {
+      "column": "guest_satisfaction_overall",
+      "count": 51707.0,
+      "mean": 92.628,
+      "std": 8.946,
+      "min": 20.0,
+      "1%": 60.0,
+      "25%": 90.0,
+      "50%": 95.0,
+      "75%": 99.0,
+      "99%": 100.0,
+      "max": 100.0
+    },
+    {
+      "column": "bedrooms",
+      "count": 51707.0,
+      "mean": 1.159,
+      "std": 0.627,
+      "min": 0.0,
+      "1%": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "99%": 3.0,
+      "max": 10.0
+    },
+    {
+      "column": "dist",
+      "count": 51707.0,
+      "mean": 3.191,
+      "std": 2.394,
+      "min": 0.015,
+      "1%": 0.244,
+      "25%": 1.453,
+      "50%": 2.614,
+      "75%": 4.263,
+      "99%": 11.37,
+      "max": 25.285
+    },
+    {
+      "column": "metro_dist",
+      "count": 51707.0,
+      "mean": 0.682,
+      "std": 0.858,
+      "min": 0.002,
+      "1%": 0.053,
+      "25%": 0.248,
+      "50%": 0.413,
+      "75%": 0.738,
+      "99%": 4.781,
+      "max": 14.274
+    },
+    {
+      "column": "attr_index",
+      "count": 51707.0,
+      "mean": 294.204,
+      "std": 224.754,
+      "min": 15.152,
+      "1%": 38.106,
+      "25%": 136.797,
+      "50%": 234.332,
+      "75%": 385.756,
+      "99%": 1056.035,
+      "max": 4513.563
+    },
+    {
+      "column": "attr_index_norm",
+      "count": 51707.0,
+      "mean": 13.424,
+      "std": 9.808,
+      "min": 0.926,
+      "1%": 1.851,
+      "25%": 6.381,
+      "50%": 11.468,
+      "75%": 17.415,
+      "99%": 47.261,
+      "max": 100.0
+    },
+    {
+      "column": "rest_index",
+      "count": 51707.0,
+      "mean": 626.857,
+      "std": 497.92,
+      "min": 19.577,
+      "1%": 52.707,
+      "25%": 250.854,
+      "50%": 522.053,
+      "75%": 832.629,
+      "99%": 2342.722,
+      "max": 6696.157
+    },
+    {
+      "column": "rest_index_norm",
+      "count": 51707.0,
+      "mean": 22.786,
+      "std": 17.804,
+      "min": 0.593,
+      "1%": 1.311,
+      "25%": 8.751,
+      "50%": 17.542,
+      "75%": 32.965,
+      "99%": 75.64,
+      "max": 100.0
+    },
+    {
+      "column": "lng",
+      "count": 51707.0,
+      "mean": 7.426,
+      "std": 9.8,
+      "min": -9.226,
+      "1%": -9.166,
+      "25%": -0.072,
+      "50%": 4.873,
+      "75%": 13.519,
+      "99%": 23.751,
+      "max": 23.786
+    },
+    {
+      "column": "lat",
+      "count": 51707.0,
+      "mean": 45.671,
+      "std": 5.249,
+      "min": 37.953,
+      "1%": 37.964,
+      "25%": 41.4,
+      "50%": 47.507,
+      "75%": 51.472,
+      "99%": 52.533,
+      "max": 52.641
+    }
+  ],
+  "cities": [
+    {
+      "city": "amsterdam",
+      "rows": 2080,
+      "mean_price": 573.113,
+      "median_price": 460.244,
+      "lat_min": 52.29,
+      "lat_max": 52.423,
+      "lng_min": 4.776,
+      "lng_max": 5.011
+    },
+    {
+      "city": "athens",
+      "rows": 5280,
+      "mean_price": 151.744,
+      "median_price": 127.715,
+      "lat_min": 37.953,
+      "lat_max": 38.031,
+      "lng_min": 23.703,
+      "lng_max": 23.786
+    },
+    {
+      "city": "barcelona",
+      "rows": 2833,
+      "mean_price": 293.754,
+      "median_price": 208.299,
+      "lat_min": 41.35,
+      "lat_max": 41.463,
+      "lng_min": 2.093,
+      "lng_max": 2.226
+    },
+    {
+      "city": "berlin",
+      "rows": 2484,
+      "mean_price": 244.584,
+      "median_price": 191.175,
+      "lat_min": 52.37,
+      "lat_max": 52.641,
+      "lng_min": 13.116,
+      "lng_max": 13.712
+    },
+    {
+      "city": "budapest",
+      "rows": 4022,
+      "mean_price": 176.514,
+      "median_price": 152.982,
+      "lat_min": 47.396,
+      "lat_max": 47.599,
+      "lng_min": 18.935,
+      "lng_max": 19.304
+    },
+    {
+      "city": "lisbon",
+      "rows": 5763,
+      "mean_price": 238.21,
+      "median_price": 225.375,
+      "lat_min": 38.693,
+      "lat_max": 38.793,
+      "lng_min": -9.226,
+      "lng_max": -9.092
+    },
+    {
+      "city": "london",
+      "rows": 9993,
+      "mean_price": 362.469,
+      "median_price": 261.295,
+      "lat_min": 51.414,
+      "lat_max": 51.576,
+      "lng_min": -0.252,
+      "lng_max": 0.12
+    },
+    {
+      "city": "paris",
+      "rows": 6688,
+      "mean_price": 392.531,
+      "median_price": 317.597,
+      "lat_min": 48.82,
+      "lat_max": 48.901,
+      "lng_min": 2.248,
+      "lng_max": 2.439
+    },
+    {
+      "city": "rome",
+      "rows": 9027,
+      "mean_price": 205.392,
+      "median_price": 182.592,
+      "lat_min": 41.818,
+      "lat_max": 41.952,
+      "lng_min": 12.401,
+      "lng_max": 12.583
+    },
+    {
+      "city": "vienna",
+      "rows": 3537,
+      "mean_price": 241.582,
+      "median_price": 208.494,
+      "lat_min": 48.126,
+      "lat_max": 48.295,
+      "lng_min": 16.213,
+      "lng_max": 16.547
+    }
+  ],
+  "room_types": [
+    {
+      "room_type": "Entire home/apt",
+      "rows": 32648
+    },
+    {
+      "room_type": "Private room",
+      "rows": 18693
+    },
+    {
+      "room_type": "Shared room",
+      "rows": 366
+    }
+  ]
+}
